@@ -1,4 +1,4 @@
-from launcher import *
+from utils import *
 
 if __name__ == "__main__":
     
@@ -13,7 +13,7 @@ if __name__ == "__main__":
             break
         trier_avis(wb, list_avis)
         page +=1    
-        time.sleep(3)
+        time.sleep(1)
 
     print("test ok")
     browser.quit()
